@@ -1,0 +1,22 @@
+<h1>Results for : <em><%= search.toUpperCase() %></em> </h1>
+
+
+
+<h3>
+    <table>
+        <% data.forEach(movie => { %>
+        <tr>      
+        <td><strong><%= movie.Title %>  </strong> - <em><%= movie.Year %> </em> </td>
+        <td><img src="<%=movie.Poster %> " alt=""></td>    
+        </tr>
+        <% }) %>
+    </table>
+
+</h3>
+
+
+
+<form action="/results" method="GET">
+    <input type="text" placeholder="Search Term" name="search">
+    <button>Sumbit</button>
+</form>
