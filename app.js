@@ -5,6 +5,7 @@ var app = express();
 app.set("view engine", "ejs");
 
 // Make a request for a user with a given ID
+app.use(express.static(__dirname + "/public"));
 
 
 app.get("/", function(req, res){
