@@ -12,20 +12,22 @@ TryIT on [heroku](https://movies-api-te.herokuapp.com/)
 
 
 ## Screenshots
-<table>
+<table border="3px">
   <tr>
     <td>
       <img src="https://user-images.githubusercontent.com/59741135/96269367-e9d75f00-0fe7-11eb-9b7d-629976c1add4.png" alt="drawing" height="500" width="900"/>
     </td>
   </tr>
-  
+  </table>
+  <table border="3px">
   <tr>
     <td>
       <img src="https://user-images.githubusercontent.com/59741135/96269386-ecd24f80-0fe7-11eb-8b3d-dbe019f647aa.png" alt="drawing" height="500" width="900"/>
     </td>
   </tr>
+  </table>
   
-</table>
+
 
 
 
