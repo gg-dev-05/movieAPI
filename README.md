@@ -35,7 +35,8 @@ TryIT on [heroku](https://movies-api-te.herokuapp.com/)
 #### The output is a list of json objects containing information about the movies matching to the query entered by the user
 ```
 [ 
-  {"Title":"Grave of the Fireflies","Year":"1988","imdbID":"tt0095327","Type":"movie","Poster":"https://m.media-           amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"} , 
+  {"Title":"Grave of the Fireflies","Year":"1988","imdbID":"tt0095327","Type":"movie","Poster":"https://m.media
+amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"} , 
   {"Title":"Cradle 2 the Grave","Year":"2003","imdbID":"tt0306685","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMTY0NTE1MDgwMl5BMl5BanBnXkFtZTYwNjQ0MDg5._V1_SX300.jpg"} , 
   {"Title":"Dracula Has Risen from the Grave","Year":"1968","imdbID":"tt0062909","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BNzRhYTQ1MWEtNDJlYi00YzBmLWEyNDUtNDUwYjYzY2Y1ZmI1XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"} , 
   {"Title":"One Foot in the Grave","Year":"1990–2001","imdbID":"tt0098882","Type":"series","Poster":"https://m.media-amazon.com/images/M/MV5BYmExNTU1NDctZTRhMi00NWQwLWEyNmYtNjc5ZDQ4ZGQwYjQxXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_SX300.jpg"} , 
