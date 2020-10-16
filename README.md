@@ -4,7 +4,7 @@ TryIT on [heroku](https://movies-api-te.herokuapp.com/)
 
 
 # USAGE:
-* Enter the name of the movie of TV series about which you are interested to know
+* Enter the name of the movie or TV series about which you are interested to know
 * If you need the output in form of a JSON string, check the checkbox
 * Press GO
 
