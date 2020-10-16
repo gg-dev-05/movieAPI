@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 
-app.get("/", function(req, res){
+app.get("/", function (req, res) {
     res.render("search");
 })
 
@@ -19,30 +19,36 @@ app.get("/results", function (req, res) {
     console.log(req.query);
     var data;
     axios.get(url)
-        .then(function (response){
+        .then(function (response) {
             var results = response.data.Response;
-            if(results.toLowerCase() == "true"){
+            if (results.toLowerCase() == "true") {
                 data = response.data.Search;
-                if(req.query.json == 'checked')
-                    console.log(data);
-                res.render("results", {data: data, search: search});
+                if (req.query.json == 'checked'){
+                    console.log(data)
+                    res.render("jsonFile", { data: data, search: search });
+                    
+                }
+
+                else {
+                    res.render("results", { data: data, search: search });
+                }
 
             }
             else {
-                res.render("failed", {search: search});
+                res.render("failed", { search: search });
             }
         })
-        .catch(function(error){
+        .catch(function (error) {
             console.log("Failed")
         })
-        .then(function(){
-            
+        .then(function () {
+
         });
 });
 
 
 
-app.get("*", function(req, res){
+app.get("*", function (req, res) {
     res.redirect("/");
 });
 
