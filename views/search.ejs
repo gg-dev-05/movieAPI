@@ -1,12 +1,37 @@
 <%- include('partials/header.ejs') %>
 
-    <div class="jumbotron">
 
-        <form action="/results" method="GET">
-            <input type="text" placeholder="Search" name="search">
-            <button>Go</button>
-        </form>
+
+    <script>
+        document.getElementsByClassName("progress-bar")[0].style.width = 0.3 + "%";
+        setInterval(function() {
+            document.getElementsByClassName("progress-bar")[0].style.width = 100 + "%";
+        }, 800)
+    </script>
+
+
+    <div class="jumbotron mt-5 text-center">
+
+
+        <div class="container mt-5 mb-5">
+            <form class="form" action="/results" method="GET">
+                <input type="text" placeholder="Search" name="search" style="width: 80%;">
+                <div class="container">
+                    <input class="form-check-input" type="checkbox" value="checked" name="json">
+                    <label class="form-check-label" for="defaultCheck1">
+                    JSON Response
+                  </label>
+                </div>
+                <div class="container">
+
+                  <button>Go</button>
+
+                </div>
+            </form>
+        </div>
     </div>
+    </div>
+
 
 
     <!-- 

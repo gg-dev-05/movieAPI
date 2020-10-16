@@ -1,10 +1,17 @@
 <%- include('partials/header.ejs') %>
 
+    <script>
+        document.getElementsByClassName("progress-bar")[0].style.width = 0.3 + "%";
+        setInterval(function() {
+            document.getElementsByClassName("progress-bar")[0].style.width = 100 + "%";
+        }, 800)
+    </script>
 
-<h1>Sorry No Results for : <em><%= search %> </em></h1>
+    <div class="container mt-5 pt-5">
+        <h1>Sorry No Results for : <em><%= search %> </em></h1>
+        <h3>Please Try Again using different keywords</h3>
 
-<form action="/" method="GET">
-    <button>Back</button>
-</form>
+    </div>
 
-<%- include('partials/footer.ejs') %>
+
+    <%- include('partials/footer.ejs') %>
