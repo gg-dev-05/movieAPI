@@ -29,6 +29,7 @@ TryIT on [heroku](https://movies-api-te.herokuapp.com/)
 
 
 
-##### JSON RESPONSE Example:
+### JSON RESPONSE Example:
+#### The output is a list of json objects containing information about the movies matching to the query entered by the user
 <img src="https://user-images.githubusercontent.com/59741135/96269396-efcd4000-0fe7-11eb-8b9e-160df62779b8.png" alt="drawing" height="200" width="900"/>
     
